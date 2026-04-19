@@ -717,6 +717,14 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .hero {
+        background-position: center top;
+    }
+
+    .authority {
+        background-position: center top;
+    }
+
     .hero h1 {
         font-size: 36px;
     }
