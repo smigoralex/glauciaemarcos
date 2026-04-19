@@ -718,11 +718,19 @@ footer {
     }
 
     .hero {
-        background-position: center top;
+        background-size: 100% auto;
+        background-position: top center;
+        background-repeat: no-repeat;
+        min-height: auto;
+        padding-top: 65vw; /* Empurra o texto para baixo da imagem */
+        padding-bottom: 60px;
     }
 
     .authority {
-        background-position: center top;
+        background-size: 100% auto;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-top: 65vw;
     }
 
     .hero h1 {
