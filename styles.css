@@ -187,6 +187,29 @@ p {
     margin: 20px 0 16px 0;
 }
 
+.temperament-box {
+    max-width: 900px;
+    margin: 0 auto 80px auto;
+    text-align: left;
+    background: linear-gradient(180deg, var(--navy-secondary), var(--navy-primary));
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.temperament-box-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--text-offwhite);
+}
+
+.temperament-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
 /* OBJECTIVES SECTION */
 .objectives {
     background: var(--navy-gradient);
@@ -722,6 +745,15 @@ footer {
         width: 100%;
         padding: 16px;
         font-size: 16px;
+    }
+
+    .temperament-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .temperament-box {
+        padding: 24px 20px;
+        margin-bottom: 50px;
     }
 
     .pillars-section {
