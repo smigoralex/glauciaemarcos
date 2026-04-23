@@ -606,13 +606,6 @@ p {
 
 .authority-text-side {
     text-align: left;
-    order: 1;
-}
-
-.authority-image-side {
-    position: relative;
-    width: 100%;
-    order: 2;
 }
 
 .authority-text-side h2 {
@@ -829,14 +822,6 @@ footer {
     .authority-layout {
         grid-template-columns: 1fr;
         gap: 60px;
-    }
-
-    .authority-image-side {
-        order: 1;
-    }
-
-    .authority-text-side {
-        order: 2;
     }
 
     .image-wrapper {
